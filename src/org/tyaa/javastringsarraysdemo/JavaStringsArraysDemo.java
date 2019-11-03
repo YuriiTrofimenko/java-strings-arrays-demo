@@ -22,7 +22,7 @@ public class JavaStringsArraysDemo {
         // Test comment 2
         
         // Alt + Enter for import
-        Scanner sc = new Scanner(System.in);
+        /* Scanner sc = new Scanner(System.in);
         
         System.out.println("Input a number then press Enter: ");
         int x = sc.nextInt();
@@ -38,7 +38,8 @@ public class JavaStringsArraysDemo {
             System.out.println(x + y);
         } else {
             System.out.println("Incorrect input data!");
-        }
+        } */
+        
         /* int x = 10;
         for (int i = 0; i < 10; i++) {
             // System.out.println(x++);
@@ -46,6 +47,30 @@ public class JavaStringsArraysDemo {
             x = x + 1;
             System.out.println(x);
         } */
+        
+        // double x = ((12d * 5d) / 11d) - 14d + 100d;
+        // System.out.println(x);
+        /*System.out.println("Input your name: ");
+        Scanner sc = new Scanner(System.in);
+        
+        String s1 = new String("Hello");
+        // s1 = "Java";
+        s1 = sc.nextLine();
+        
+        String s2 = "Hi " + s1 + "!";
+        System.out.println(s2);*/
+        
+        int[] intArray = new int[10];
+        intArray[0] = 500;
+        // System.out.println(intArray[0]);
+        
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.println(intArray[i]);
+        }
+        
+        /*for (int i : intArray) {
+            System.out.println(i);
+        }*/
     }
     
 }
