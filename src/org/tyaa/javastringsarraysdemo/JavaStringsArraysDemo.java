@@ -17,6 +17,7 @@ public class JavaStringsArraysDemo {
     public static void main(String[] args) {
         System.out.println("Hello Java!");
         // Test comment
+        // Test comment 2
     }
     
 }
