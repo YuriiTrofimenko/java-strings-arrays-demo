@@ -17,7 +17,7 @@ public class JavaStringsArraysDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello Java!");
+        // System.out.println("Hello Java!");
         // Test comment
         // Test comment 2
         
@@ -134,7 +134,7 @@ public class JavaStringsArraysDemo {
         } */
         
         // Step 6
-        int[][] table = new int[11][];
+        /* int[][] table = new int[11][];
         
         for (int i = 0; i < 11; i++) {
             table[i] = new int[11];
@@ -157,7 +157,95 @@ public class JavaStringsArraysDemo {
                 System.out.printf("%4d", table[i][j]);
             }
             System.out.println();
+        } */
+        
+        char x1 = 'A';
+        char x2 = 'B';
+        char x3 = 'C';
+        //System.out.println(x1);
+        
+        // int[] y;
+        // int[] y = new int[5];
+       //  char[] y1;
+       
+       
+        // char[] y1 = new char[5];
+        //ex1
+        /*y1[0] = x1;
+        y1[3] = 'D';
+        y1[1] = x2;
+        y1[2] = x3;
+        y1[4] = 'E';
+        
+        System.out.println(y1[0]);
+        System.out.println("y[1] = " + y1[1]);*/
+        
+        //ex2
+        /* for (int i = 0; i < 5; i++) {
+            // System.out.println("Hello");
+            
+            //System.out.println("Hello " + i);
+            
+            y1[i] = 'A';
         }
+        
+        for (int i = 0; i < y1.length; i++) {
+            System.out.println(y1[i]);
+        } */
+        
+        //ex3
+        // Fill the array
+        /* for (int i = 0; i < 6; i++) {
+            
+            y1[i] = (char)('A' + i);
+        }
+        
+        // Print the array
+        for (int i = 0; i < y1.length; i++) {
+            System.out.println(y1[i]);
+        } */
+        
+        //ex4
+        /*Character[] y1 = new Character[5];
+        
+        for (int i = 0; i < 5; i++) {
+            
+            y1[i] = (char)('A' + i);
+        }
+        
+        Object[][] y2 = new Object[2][];
+        y2[0] = y1;
+        y2[1] = new Object[]{1, 10, -16, 0};
+        
+        for (int i = 0; i < y2.length; i++)
+        {
+            System.out.println(y2[i]);  
+        }*/
+        
+        //ex5
+        Character[] y1 = new Character[5];
+        
+        for (int i = 0; i < 5; i++) {
+            
+            y1[i] = (char)('A' + i);
+        }
+        
+        Object[][] y2 = new Object[2][];
+        y2[0] = y1;
+        y2[1] = new Object[]{1, 10, -16, 0};
+        
+        for (int i = 0; i < y2.length; i++)
+        {
+            // System.out.println(y2[i]);
+            for (int j = 0; j < y2[i].length; j++) {
+                System.out.print(y2[i][j] + " ");
+            }
+            System.out.println();
+        }
+        
+        /* TODO сделать массив y2 размерностью 3 вместо 2
+        и в последнюю его позицию добавить подмассив из букв X, Y, Z
+        */
     }
     
 }
