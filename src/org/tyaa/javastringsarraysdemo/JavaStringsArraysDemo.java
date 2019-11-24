@@ -223,14 +223,14 @@ public class JavaStringsArraysDemo {
         }*/
         
         //ex5
-        Character[] y1 = new Character[5];
+        /*Character[] y1 = new Character[5];
         
         for (int i = 0; i < 5; i++) {
             
             y1[i] = (char)('A' + i);
         }
         
-        Object[][] y2 = new Object[2][];
+        Object[][] y2 = new Object[3][];
         y2[0] = y1;
         y2[1] = new Object[]{1, 10, -16, 0};
         
@@ -241,7 +241,64 @@ public class JavaStringsArraysDemo {
                 System.out.print(y2[i][j] + " ");
             }
             System.out.println();
-        }
+        }*/
+        // double d1 = 15.0;
+        double d1 = 15d;
+        double d2;
+        double[] doubleArray = {12.99, -5.0, 900, 1000};
+        double[] doubleArray2 = new double[4];
+        
+        boolean[] booleanArray = {true , false , true , false , true , false} ;
+        char [] charArray = new char [3];
+        
+        d1 = 20d;
+        doubleArray[1] = -15d;
+        
+        int [] i1 = new int [5];
+        
+        /*for (int i = 0; i < i1.length; i++) {
+            i1 [i] = i+1;
+        }*/
+        
+        /*for (int i = 1; i < i1.length + 1; i++) {
+            i1 [i-1] = i;
+        }*/
+        
+        /*for (int i = 0; i < i1.length; i++) {
+            System.out.print(i1 [i] + " ");
+        }*/
+        
+        
+        /* System.out.println(doubleArray[0]);
+        System.out.println(doubleArray[1]);
+        System.out.println(doubleArray[2]); */
+        // System.out.print(doubleArray[0] + " " + doubleArray[1] + " " + doubleArray[2]);
+        
+        // Цикл, выполняющий действие внутри фигурных скобок,
+        // пока i < doubleArray.length
+        // i - переменная-счетчик
+        // i < doubleArray.length - условие выполнения цикла
+        // i++ - приращение значения счетчика
+        /*for (int i = 0; i < doubleArray.length; i++) {
+            System.out.print(doubleArray[i] + " ");
+        }*/
+        /*for (int i = 0; i < doubleArray.length; i = i + 2) {
+            System.out.print(doubleArray[i] + " ");
+        }*/
+        /*for (int i = 0; i < doubleArray.length; i += 2) {
+            System.out.print(doubleArray[i] + " ");
+        }*/
+        /*for (int i = 1; i < doubleArray.length; i += 2) {
+            System.out.print(doubleArray[i] + " ");
+        }*/
+        
+        //System.out.println("");
+        /*booleanArray[1] = true ;
+        System.out.println(booleanArray[1]);*/
+        
+        /*for (int i = 0; i < booleanArray.length; i += 2) {
+            System.out.print(booleanArray[i] + " ");
+        }*/
         
         /* TODO сделать массив y2 размерностью 3 вместо 2
         и в последнюю его позицию добавить подмассив из букв X, Y, Z
