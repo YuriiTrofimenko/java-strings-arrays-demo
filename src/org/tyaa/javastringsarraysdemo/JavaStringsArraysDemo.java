@@ -162,6 +162,20 @@ public class JavaStringsArraysDemo {
         char x1 = 'A';
         char x2 = 'B';
         char x3 = 'C';
+        char x4 = 'D';
+        
+        char[] chArray = {x1, x2, x3, x4};
+        
+        char[][] array2D = {chArray, {'X', 'Y', 'Z'}};
+        
+        for (int i = 0; i < array2D.length; i++) {
+            // System.out.println(array2D[i]);
+            for (int j = 0; j < array2D[i].length; j++) {
+                System.out.print(array2D[i][j]  + " ");
+            }
+            System.out.println();
+        }
+        
         //System.out.println(x1);
         
         // int[] y;
@@ -223,7 +237,7 @@ public class JavaStringsArraysDemo {
         }*/
         
         //ex5
-        Character[] y1 = new Character[5];
+        /*Character[] y1 = new Character[5];
         
         for (int i = 0; i < 5; i++) {
             
@@ -241,7 +255,7 @@ public class JavaStringsArraysDemo {
                 System.out.print(y2[i][j] + " ");
             }
             System.out.println();
-        }
+        }*/
         
         /* TODO сделать массив y2 размерностью 3 вместо 2
         и в последнюю его позицию добавить подмассив из букв X, Y, Z
